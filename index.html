@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indla Snigdha Vennela | Aspiring Software Engineer &amp; Product Enthusiast</title>
+  <meta name="description"
+    content="Personal portfolio of Indla Snigdha Vennela, Computer Science and Engineering student at VVIT. Aspiring Software Engineer & Product Enthusiast.">
+  <meta name="author" content="Indla Snigdha Vennela">
+  <meta name="keywords"
+    content="Indla Snigdha Vennela, Software Engineer, Product Manager, CSE, VVIT, Prodigy InfoTech, SkillCraft Technology, Python, Java, React, Web Development">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Indla Snigdha Vennela | Portfolio">
+  <meta property="og:description" content="Aspiring Software Engineer | Product Enthusiast | CSE Student at VVIT.">
+  <meta property="og:type" content="website">
+
+  <!-- Boxicons & Lucide-compatible icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Space Galaxy Background & Radial Gradient Overlay -->
+  <div class="back-vid-container">
+    <video autoplay loop muted playsinline class="back-vid">
+      <source src="images/galaxy.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="bg-overlay"></div>
+
+  <!-- 1. Sticky Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-brand">
+      <span>Snigdha Vennela</span><span class="brand-dot">.</span>
+      <span class="brand-tag">VVIT '28</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <i class="bx bx-menu"></i>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li>
+        <a href="#contact" class="nav-resume-btn" id="resumeBtn">
+          <i class="bx bx-download"></i> Resume
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Wrapper -->
+  <main>
+    <!-- 2. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-info">
+            <div class="hero-badge" data-aos="fade-down" data-aos-duration="800">
+              <span class="pulse-dot"></span>
+              <span>Available for Software Engineering Internships</span>
+            </div>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+              <span class="gradient-text">INDLA SNIGDHA VENNELA</span>
+            </h1>
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+              Aspiring Software Engineer | Product Enthusiast | CSE Student
+            </h2>
+            <p class="hero-bio" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              Passionate Computer Science student interested in software development, web technologies, and building
+              impactful technology solutions. Always eager to learn, explore new technologies, and solve real-world
+              problems.
+            </p>
+            <div class="hero-actions" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <a href="#projects" class="btn-primary">
+                Explore My Work <i class="bx bx-right-arrow-alt"></i>
+              </a>
+              <a href="#contact" class="btn-outline" id="heroResumeBtn">
+                Download Resume <i class="bx bx-download"></i>
+              </a>
+              <div class="social-links">
+                <a href="https://github.com/snigdha-07-collab" target="_blank" rel="noopener noreferrer"
+                  class="social-btn" title="GitHub">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/snigdha-indla-038a92381" target="_blank" rel="noopener noreferrer"
+                  class="social-btn" title="LinkedIn">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="mailto:snigdhaindla07@gmail.com" class="social-btn" title="Email Me">
+                  <i class="bx bx-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Avatar Showcase -->
+          <div class="hero-img-box" data-aos="zoom-in" data-aos-duration="1200">
+            <div class="avatar-wrapper">
+              <div class="avatar-inner">
+                <img src="images/female-anime.png" alt="Indla Snigdha Vennela - Avatar" class="profile-avatar-img">
+              </div>
+              <!-- Floating Highlight Pills -->
+              <div class="float-card top-right">
+                <i class="bx bx-briefcase-alt-2"></i> 2x Internships
+              </div>
+              <div class="float-card bottom-left">
+                <i class="bx bx-star"></i> 8.0 CGPA
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metric Stat Counters -->
+        <div class="stats-grid">
+          <div class="glass-card stat-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="stat-value gradient-text">8.0</div>
+            <div class="stat-label">B.Tech CGPA</div>
+          </div>
+          <div class="glass-card stat-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="stat-value gradient-text">2028</div>
+            <div class="stat-label">Graduation Year</div>
+          </div>
+          <div class="glass-card stat-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="stat-value gradient-text">2+</div>
+            <div class="stat-label">Internship Experiences</div>
+          </div>
+          <div class="glass-card stat-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="stat-value gradient-text">9+</div>
+            <div class="stat-label">Completed Tasks &amp; Projects</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Me Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Profile</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-desc">Introduction to my technical focus, engineering interests, and career ambitions.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card about-text-card" data-aos="fade-right">
+            <h3>Bridging Software Engineering &amp; Product Innovation</h3>
+            <p>
+              I am a Computer Science and Engineering student at Vasireddy Venkatadri Institute of Technology (VVIT)
+              driven by a passion for software engineering, web development, emerging technologies, and product
+              management.
+            </p>
+            <p>
+              With strong foundations in programming languages like Python, Java, and C alongside web technologies and
+              database management systems, I enjoy transforming ideas into responsive, user-centered applications. My
+              experience through development internships at Prodigy InfoTech and SkillCraft Technology has honed my
+              hands-on problem-solving abilities and software development lifecycle awareness.
+            </p>
+
+            <!-- Career Objective (Section 9) -->
+            <div class="career-objective-pill">
+              <i class="bx bx-target-lock"></i>
+              <div>
+                <div class="title">Career Objective</div>
+                <div class="value">"Aspiring Software Engineer and Product Manager seeking opportunities to build
+                  impactful technology solutions, strengthen technical expertise, and contribute to innovative
+                  projects."</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card" data-aos="fade-left">
+            <div class="info-details-list">
+              <div class="info-item">
+                <div class="info-icon"><i class="bx bx-user"></i></div>
+                <div class="info-meta">
+                  <h4>Full Name</h4>
+                  <p>Indla Snigdha Vennela</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="bx bx-book-reader"></i></div>
+                <div class="info-meta">
+                  <h4>Degree &amp; Branch</h4>
+                  <p>B.Tech – Computer Science and Engineering</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="bx bxs-institution"></i></div>
+                <div class="info-meta">
+                  <h4>Institution &amp; CGPA</h4>
+                  <p>VVIT • 8.0 CGPA (Class of 2028)</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon"><i class="bx bx-compass"></i></div>
+                <div class="info-meta">
+                  <h4>Core Focus Areas</h4>
+                  <p>Software Engineering, Web Dev, Product Management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Education Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Academia</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-desc">Academic foundation and engineering degree timeline.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="glass-card">
+              <div class="timeline-header">
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <span class="timeline-badge">Graduation Year: 2028</span>
+              </div>
+              <div class="timeline-sub">
+                <i class="bx bxs-school"></i> Vasireddy Venkatadri Institute of Technology (VVIT)
+              </div>
+              <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 12px;">
+                Pursuing comprehensive undergraduate coursework in computer science fundamentals, theoretical computer
+                science, and practical software engineering.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag"><i class="bx bx-award"></i> CGPA: 8.0</span>
+                <span class="tech-tag">B.Tech CSE</span>
+                <span class="tech-tag">Core CS Coursework</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Technical Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-desc">Programming languages, web technologies, databases, CS foundations, and tools.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="100">
+            <h3><i class="bx bx-code-curly"></i> Programming</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bxl-python"></i> Python</span>
+              <span class="skill-pill"><i class="bx bxl-java"></i> Java</span>
+              <span class="skill-pill"><i class="bx bx-terminal"></i> C</span>
+              <span class="skill-pill"><i class="bx bxl-javascript"></i> JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="200">
+            <h3><i class="bx bx-globe"></i> Web Development</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bxl-html5"></i> HTML</span>
+              <span class="skill-pill"><i class="bx bxl-css3"></i> CSS</span>
+              <span class="skill-pill"><i class="bx bx-layout"></i> Responsive UI</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="300">
+            <h3><i class="bx bx-data"></i> Database</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bx-server"></i> SQL</span>
+              <span class="skill-pill"><i class="bx bx-cylinder"></i> DBMS</span>
+              <span class="skill-pill"><i class="bx bx-table"></i> Relational Models</span>
+            </div>
+          </div>
+
+          <!-- Computer Science -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="400">
+            <h3><i class="bx bx-chip"></i> Computer Science</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bx-cog"></i> Operating Systems</span>
+              <span class="skill-pill"><i class="bx bx-network-chart"></i> Computer Networks</span>
+              <span class="skill-pill"><i class="bx bx-layer"></i> Basic DSA</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="500">
+            <h3><i class="bx bx-wrench"></i> Developer Tools</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bxl-github"></i> GitHub</span>
+              <span class="skill-pill"><i class="bx bx-code-block"></i> VS Code</span>
+              <span class="skill-pill"><i class="bx bxl-git"></i> Git Version Control</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills / Interdisciplinary -->
+          <div class="glass-card skill-category-card" data-aos="fade-up" data-aos-delay="600">
+            <h3><i class="bx bx-bulb"></i> Product &amp; Professional</h3>
+            <div class="skill-pills-wrap">
+              <span class="skill-pill"><i class="bx bx-check-shield"></i> Problem Solving</span>
+              <span class="skill-pill"><i class="bx bx-line-chart"></i> Product Mindset</span>
+              <span class="skill-pill"><i class="bx bx-group"></i> Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Internships / Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">Industry <span class="gradient-text">Internships</span></h2>
+          <p class="section-desc">Practical development internships delivering hands-on software tasks.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Internship 1: Prodigy InfoTech -->
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot"></div>
+            <div class="glass-card">
+              <div class="timeline-header">
+                <h3>Software Development Intern</h3>
+                <span class="timeline-badge">June 2026</span>
+              </div>
+              <div class="timeline-sub">
+                <i class="bx bx-building"></i> Prodigy InfoTech
+              </div>
+              <ul class="task-list">
+                <li><i class="bx bx-check-circle"></i> Completed 5 development tasks successfully within the internship
+                  timeline.</li>
+                <li><i class="bx bx-check-circle"></i> Strengthened practical software engineering and application
+                  programming skills.</li>
+                <li><i class="bx bx-check-circle"></i> Improved problem-solving abilities and code debugging
+                  proficiency.</li>
+              </ul>
+              <div class="tech-tags" style="margin-top: 16px;">
+                <span class="tech-tag">Software Development</span>
+                <span class="tech-tag">Problem Solving</span>
+                <span class="tech-tag">Engineering Tasks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 2: SkillCraft Technology -->
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-dot purple"></div>
+            <div class="glass-card">
+              <div class="timeline-header">
+                <h3>Web Development Intern</h3>
+                <span class="timeline-badge">June – July 2026</span>
+              </div>
+              <div class="timeline-sub">
+                <i class="bx bx-building"></i> SkillCraft Technology
+              </div>
+              <ul class="task-list">
+                <li><i class="bx bx-check-circle"></i> Completed 4 web development tasks focusing on frontend
+                  interactivity.</li>
+                <li><i class="bx bx-check-circle"></i> Worked with HTML, CSS, and JavaScript to build dynamic user
+                  interfaces.</li>
+                <li><i class="bx bx-check-circle"></i> Gained practical frontend development and responsive web layout
+                  experience.</li>
+              </ul>
+              <div class="tech-tags" style="margin-top: 16px;">
+                <span class="tech-tag">Web Development</span>
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Frontend UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc">Practical software and web applications demonstrating algorithmic logic and
+            interactive UI.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Sudoku Solver -->
+          <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-banner">
+              <i class="bx bx-grid-alt project-icon-large"></i>
+              <span class="project-type-tag">Python &amp; GUI</span>
+            </div>
+            <div class="project-body">
+              <h3>Sudoku Solver</h3>
+              <p class="project-desc">
+                GUI-based application for solving Sudoku puzzles using programming logic, backtracking algorithms, and
+                intuitive desktop interface design.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Tkinter</span>
+                <span class="tech-tag">Backtracking Logic</span>
+                <span class="tech-tag">Desktop GUI</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/snigdha-07-collab" target="_blank" rel="noopener noreferrer"
+                  class="btn-project-repo">
+                  <i class="bx bxl-github"></i> GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Stopwatch Web Application -->
+          <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-banner">
+              <i class="bx bx-stopwatch project-icon-large"></i>
+              <span class="project-type-tag">Frontend Web</span>
+            </div>
+            <div class="project-body">
+              <h3>Stopwatch Web Application</h3>
+              <p class="project-desc">
+                Interactive web-based stopwatch application featuring precise time tracking with Start, Stop, Reset, and
+                Lap functionality wrapped in an intuitive user experience.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">DOM Interactivity</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/snigdha-07-collab" target="_blank" rel="noopener noreferrer"
+                  class="btn-project-repo">
+                  <i class="bx bxl-github"></i> GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Certifications & Activities Section -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Extracurriculars</span>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Activities</span></h2>
+          <p class="section-desc">Competitive coding achievements, workshops, and campus community leadership.</p>
+        </div>
+
+        <div class="certs-grid">
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="cert-icon-box"><i class="bx bx-badge-check"></i></div>
+            <div class="cert-info">
+              <h4>CodeChef Certificates</h4>
+              <p>Recognitions from active problem solving and competitive coding contests on CodeChef.</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="cert-icon-box"><i class="bx bx-certification"></i></div>
+            <div class="cert-info">
+              <h4>Workshop Participation</h4>
+              <p>Hands-on technical workshop certificate strengthening practical engineering concepts.</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-icon-box"><i class="bx bx-heart"></i></div>
+            <div class="cert-info">
+              <h4>NSS Member</h4>
+              <p>Dedicated volunteer contributing to community outreach, social welfare, and campus initiatives.</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="cert-icon-box"><i class="bx bx-group"></i></div>
+            <div class="cert-info">
+              <h4>Club Activities</h4>
+              <p>Active participant in collegiate student societies and collaborative technical clubs.</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="cert-icon-box"><i class="bx bx-trophy"></i></div>
+            <div class="cert-info">
+              <h4>Technical Events</h4>
+              <p>Active participation in hackathons, engineering fests, and student symposiums.</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="cert-icon-box"><i class="bx bx-award"></i></div>
+            <div class="cert-info">
+              <h4>Continuous Learning</h4>
+              <p>Regularly engaging in upskilling through online courses and peer code reviews.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-tag">Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Have an opportunity, question, or project collaboration in mind? Let's connect!</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-card contact-info-card" data-aos="fade-right">
+            <h3>Let's talk about software and opportunities</h3>
+            <p style="color: var(--text-muted); font-size: 15px;">
+              I am open to software development internship opportunities, technical collaborations, and product
+              discussions. Feel free to contact me directly:
+            </p>
+
+            <div class="contact-channel">
+              <div class="contact-channel-icon"><i class="bx bx-envelope"></i></div>
+              <div class="contact-channel-meta">
+                <div class="label">Email Address</div>
+                <a href="mailto:snigdhaindla07@gmail.com" class="value">snigdhaindla07@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel-icon"><i class="bx bx-phone-call"></i></div>
+              <div class="contact-channel-meta">
+                <div class="label">Phone</div>
+                <a href="tel:9032435123" class="value">+91 9032435123</a>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel-icon"><i class="bx bxl-linkedin"></i></div>
+              <div class="contact-channel-meta">
+                <div class="label">LinkedIn</div>
+                <a href="https://www.linkedin.com/in/snigdha-indla-038a92381" target="_blank" rel="noopener noreferrer"
+                  class="value">linkedin.com/in/snigdha-indla</a>
+              </div>
+            </div>
+
+            <div class="contact-channel">
+              <div class="contact-channel-icon"><i class="bx bxl-github"></i></div>
+              <div class="contact-channel-meta">
+                <div class="label">GitHub Profile</div>
+                <a href="https://github.com/snigdha-07-collab" target="_blank" rel="noopener noreferrer"
+                  class="value">github.com/snigdha-07-collab</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card" data-aos="fade-left">
+            <form class="contact-form" id="contactForm" action="mailto:snigdhaindla07@gmail.com" method="POST"
+              enctype="text/plain">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Hiring Manager"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="name@company.com"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control"
+                  placeholder="Software Engineering Internship Inquiry" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Write your message here..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn-primary" style="margin-top: 10px;">
+                <i class="bx bx-send"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="bx bx-chevron-up"></i>
+  </button>
+
+  <!-- 11. Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-socials">
+        <a href="https://github.com/snigdha-07-collab" target="_blank" rel="noopener noreferrer" class="social-btn"
+          title="GitHub"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/snigdha-indla-038a92381" target="_blank" rel="noopener noreferrer"
+          class="social-btn" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:snigdhaindla07@gmail.com" class="social-btn" title="Email"><i class="bx bx-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 Indla Snigdha Vennela. All rights reserved. B.Tech Computer Science and Engineering, VVIT.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Animation Library & Interactive JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // Initialize AOS animations
+    AOS.init({
+      once: true,
+      duration: 800,
+      offset: 50
+    });
+
+    // Mobile Navigation Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking any nav link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // Active Section Detection on Scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const backToTopBtn = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.clientHeight;
+        if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+
+      // Back to top visibility toggle
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    });
+
+    // Scroll to Top action
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
+    // Resume Download Handler
+    function triggerResumeDownload(e) {
+      e.preventDefault();
+      alert("Resume Download: Indla_Snigdha_Vennela_Resume.pdf can be linked directly here.");
+    }
+    document.getElementById('resumeBtn').addEventListener('click', triggerResumeDownload);
+    document.getElementById('heroResumeBtn').addEventListener('click', triggerResumeDownload);
+  </script>
+</body>
+
+</html>
